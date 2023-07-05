@@ -1,0 +1,120 @@
+.bg{
+	/*background-color:#41EABC;
+	color:white;
+	height:400px;
+	font-size:50px;
+	text-align:center;*/
+	background-image: url("images/Coffee.jpg");
+	height:700px;
+	color:white;
+    background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}	
+ul.boxes {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li.box {
+	width: 40%;
+	margin: 2% 4% 2% 5%;
+	display: inline-table;
+	box-sizing: border-box;
+	color: black;
+	font-size: 1.5;
+	border-left: 0.15em solid #f60;
+	border-right: 0.15em solid #f60;
+	
+	
+}
+
+
+.container{
+	border-style:solid;
+	width:24%;
+	height:22%;
+	display:inline-block;
+	border-width:2px;
+	text-align:center;
+}	
+
+.caf1{
+	height: 300px;
+	width: 300px;
+}
+
+.caf2{
+	height:300px;
+	width:300px;
+}
+.caf3{
+	height:300px;
+	width:300px;
+}
+
+.caf4{
+	height:300px;
+	width:300px;
+}
+
+.container2{
+	border-style:solid;
+	width:24%;
+	height:22%;
+	display:inline-block;
+	border-width:2px;
+	text-align:center;
+}
+
+.caf5{
+	height:300px;
+	width:300px;
+}
+
+.caf6{
+	height:300px;
+	width:300px;
+}
+
+.caf7{
+	height:300px;
+	width:300px;
+}
+
+.caf8{
+     height:300px;
+	 width:300px;
+}
+
+.trans_box{
+    width:70%;
+    height:650px;
+    border-style:solid;
+    margin:200px auto;
+    background-image:url("images/Coffee.jpg");
+    color:white;
+    text-align:center;
+    padding-top:3px;
+    box-sizing:border-box;
+  /*  transform:translateX(400px);
+   transform:translateY(400px);  
+   transform:translate(400px,300px); */
+   /*transform:rotate(1350deg); 
+   transform:rotateX(180deg); */
+  /* transform:scale(0.5,0.5); 
+  transform:scaleX(1.5); 
+  transform:scaleY(1.5); */
+  transition-property:transform;
+  transition-duration:2s;
+}
+
+
+.trans_box:hover{
+  /*  transform:rotateY(180pdeg);
+    transform:rotateX(180pdeg); */
+    transform:scale(1.1,1.1);
+}
+
+
